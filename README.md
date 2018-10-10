@@ -18,7 +18,8 @@ Xgboost使用与分析
      or mvn -DskipTests install
 ```
           在xgboost4j,xgboost4j-spark,xgboost-flink三个子目录下的target目录生成jar包，如下图所示。
-    
+   ![png](https://github.com/baolinji/Xgboost-spark-tutorial/blob/master/linux_image.png)
+
           由于在linux平台编译生成的jar包不能在其他系统上使用，windows产生的是xgboost4j.dll文件。使用xgboost4j-spark:  
       在pom.xml添加依赖，由于产生的jar不带依赖，所以要是在spark上使用需要加xgboost4j的依赖,如下所示。
 ```
