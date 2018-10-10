@@ -132,6 +132,5 @@ object xgboostSparkTutorial {
     println("f1 = " + f1)
 
     result.select("Species", "probability", "predict", "predictedLabel").show(50, false)
-
   }
 }
